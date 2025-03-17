@@ -2,11 +2,6 @@
 
 <project name="lab3" default="build">
 
-    <property name="nashorn.jar" value="lib/nashorn-core-15.4.jar"/>
-    <path id="nashorn.classpath">
-      <pathelement location="${nashorn.jar}"/>
-    </path>
-
     <property file="build.properties"/>
 
     <path id="classpath">
@@ -114,14 +109,14 @@
         </exec>
         <property name="commit.flag" value="false"/>
         <script language="javascript">
-          var diffs = project.getProperty("differences").split("\n").map(s => s.trim());
-          var params = project.getProperty("params").split("\n").map(s => s.trim());
+          var diffs = project.getProperty("differences").split("\n");
+          var params = project.getProperty("params").split("\n");
           var echo = project.createTask("echo");
 
           var flag = false;
           for (var i=0; i &lt; params.length; i++) {
             for (var j=0; j &lt; diffs.length; j++) {
-              if (params[i] === diffs[j]) {
+              if (params[i].trim() === diffs[j].trim()) {
                 echo.setMessage("*** CHANGED FILE FOUND: " + params[i] + " ***");
                 echo.perform();
 
