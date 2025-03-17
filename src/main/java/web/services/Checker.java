@@ -23,6 +23,4 @@ public class Checker {
       && (dto.getY() <= dto.getR()) && (2*dto.getX() + dto.getY() <= dto.getR());
   }
 }
-
-
-
+ы

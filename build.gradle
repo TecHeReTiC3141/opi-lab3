@@ -48,6 +48,38 @@ dependencies {
   testAnnotationProcessor('org.projectlombok:lombok:1.18.26')
 }
 
+import org.apache.tools.ant.taskdefs.condition.Os
+
+tasks.register("diffAndCommit") {
+  doLast {
+    println "***** DIFF STARTED *****"
+
+    def paramsFile = file("params.props")
+    if (!paramsFile.exists()) {
+      println "params.props file not found!"
+      return
+    }
+
+    def params = paramsFile.text.readLines().collect { it.trim() }
+
+    def gitDiff = "git diff --name-only".execute().text.readLines().collect { it.trim() }
+
+    def changedFile = params.find { it in gitDiff }
+
+    if (changedFile) {
+      println "*** CHANGED FILE FOUND: $changedFile ***"
+      println "*** FILES FROM PARAMS CHANGED, COMMITTING... ***"
+
+      "git add *".execute().waitFor()
+      "git commit -m \"auto-message: something important changed\"".execute().waitFor()
+    } else {
+      println "*** FILES FROM PARAMS NOT CHANGED ***"
+    }
+
+    println "***** DIFF COMPLETED *****"
+  }
+}
+
 flyway {
   locations = ["filesystem:./sql/migrations"]
   url = "jdbc:postgresql://localhost:5432/studs"
