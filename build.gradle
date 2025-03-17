@@ -48,8 +48,6 @@ dependencies {
   testAnnotationProcessor('org.projectlombok:lombok:1.18.26')
 }
 
-import org.apache.tools.ant.taskdefs.condition.Os
-
 tasks.register("diffAndCommit") {
   doLast {
     println "***** DIFF STARTED *****"
@@ -64,10 +62,10 @@ tasks.register("diffAndCommit") {
 
     def gitDiff = "git diff --name-only".execute().text.readLines().collect { it.trim() }
 
-    def changedFile = params.find { it in gitDiff }
+    def changedFiles = params.findAll { it in gitDiff }
 
-    if (changedFile) {
-      println "*** CHANGED FILE FOUND: $changedFile ***"
+    if (changedFiles) {
+      println "*** CHANGED FILE FOUND: ${changedFiles.join(', ')} ***"
       println "*** FILES FROM PARAMS CHANGED, COMMITTING... ***"
 
       "git add *".execute().waitFor()
