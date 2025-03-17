@@ -1,0 +1,17 @@
+{
+  "name": "web3",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "build-styles": "npx postcss src/main/webapp/resources/src/styles/tw.css -o src/main/webapp/resources/src/styles/main.css",
+    "build": "npm run build-styles && webpack"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "css-loader": "^6.7.1",
+    "postcss": "^8.5.3",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.4.17",
+    "webpack-cli": "^4.10.0"
+  }
+}
