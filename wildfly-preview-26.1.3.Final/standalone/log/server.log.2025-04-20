@@ -1,0 +1,2031 @@
+2025-04-20 02:53:14,946 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2025-04-20 02:53:14,950 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2025-04-20 02:53:14,952 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2025-04-20 02:53:14,958 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = web-3-1.0-SNAPSHOT.war_org.postgresql.Driver_42_6
+2025-04-20 02:53:14,962 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-04-20 02:53:14,962 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2025-04-20 02:53:14,964 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2025-04-20 02:53:14,964 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0022: Unregistered web context: '/web-3-1.0-SNAPSHOT' from server 'default-server'
+2025-04-20 02:53:14,990 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2025-04-20 02:53:14,995 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 94) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'web-3-1.0-SNAPSHOT.war#default'
+2025-04-20 02:53:14,996 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 94) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@7d860d68
+2025-04-20 02:53:14,999 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 94) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'web-3-1.0-SNAPSHOT.war#default'
+2025-04-20 02:53:14,999 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 95) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2025-04-20 02:53:15,000 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-04-20 02:53:15,002 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+2025-04-20 02:53:15,016 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTP listener default suspending
+2025-04-20 02:53:15,016 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTPS listener https suspending
+2025-04-20 02:53:15,017 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:27600
+2025-04-20 02:53:15,017 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:27601
+2025-04-20 02:53:15,018 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0004: Undertow 2.2.19.Final stopping
+2025-04-20 02:53:15,184 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment web-3-1.0-SNAPSHOT.war (runtime-name: web-3-1.0-SNAPSHOT.war) in 227ms
+2025-04-20 02:53:15,187 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) stopped in 232ms
+2025-04-20 12:34:57,482 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.2.Final
+2025-04-20 12:34:58,637 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2025-04-20 12:34:58,644 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2025-04-20 12:34:58,737 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) starting
+2025-04-20 12:34:58,738 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	file.encoding = UTF-8
+	file.separator = /
+	java.awt.headless = true
+	java.class.path = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/jboss-modules.jar
+	java.class.version = 61.0
+	java.home = /usr/local/openjdk17
+	java.io.tmpdir = /tmp/
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib:/usr/local/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.12+7-1
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = OpenJDK BSD Porting Team
+	java.vendor.url = https://github.com/battleblow/jdk17u/
+	java.vendor.url.bug = https://bugs.freebsd.org/bugzilla/enter_bug.cgi?product=Ports%20%26%20Packages&component=Individual%20Port(s)&short_desc=java/openjdk17%3A%20
+	java.version = 17.0.12
+	java.version.date = 2024-07-16
+	java.vm.compressedOopsMode = Non-zero based
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = OpenJDK BSD Porting Team
+	java.vm.version = 17.0.12+7-1
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final
+	jboss.host.name = helios
+	jboss.modules.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = helios
+	jboss.qualified.host.name = helios.cs.ifmo.ru
+	jboss.server.base.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone
+	jboss.server.config.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration
+	jboss.server.data.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data
+	jboss.server.deploy.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content
+	jboss.server.log.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/log
+	jboss.server.name = helios
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/logging.properties
+	module.path = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/modules
+	native.encoding = UTF-8
+	org.jboss.boot.log.file = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = FreeBSD
+	os.version = 14.1-STABLE
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /usr/local/openjdk17/lib
+	sun.cpu.endian = little
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/jboss-modules.jar -mp /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final -Djboss.server.base.dir=/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.stderr.encoding = UTF-8
+	sun.stdout.encoding = UTF-8
+	user.country = RU
+	user.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/bin
+	user.home = /home/studs/s408778
+	user.language = ru
+	user.name = s408778
+	user.timezone = Europe/Moscow
+2025-04-20 12:34:58,741 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/log/server.log -Dlogging.configuration=file:/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/logging.properties -Xmx512M -XX:MaxMetaspaceSize=3200m 
+2025-04-20 12:35:13,088 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2025-04-20 12:35:13,164 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.19.1.Final
+2025-04-20 12:35:13,197 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) stopped in 106ms
+2025-04-20 12:35:28,701 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.2.Final
+2025-04-20 12:35:32,292 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2025-04-20 12:35:32,299 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2025-04-20 12:35:32,390 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) starting
+2025-04-20 12:35:32,393 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	com.sun.management.jmxremote = true
+	com.sun.management.jmxremote.authenticate = false
+	com.sun.management.jmxremote.port = 7203
+	com.sun.management.jmxremote.rmi.port = 7203
+	com.sun.management.jmxremote.ssl = false
+	file.encoding = UTF-8
+	file.separator = /
+	java.awt.headless = true
+	java.class.path = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/jboss-modules.jar
+	java.class.version = 61.0
+	java.home = /usr/local/openjdk17
+	java.io.tmpdir = /tmp/
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib:/usr/local/lib
+	java.net.preferIPv4Stack = true
+	java.rmi.server.hostname = 0.0.0.0
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.12+7-1
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = OpenJDK BSD Porting Team
+	java.vendor.url = https://github.com/battleblow/jdk17u/
+	java.vendor.url.bug = https://bugs.freebsd.org/bugzilla/enter_bug.cgi?product=Ports%20%26%20Packages&component=Individual%20Port(s)&short_desc=java/openjdk17%3A%20
+	java.version = 17.0.12
+	java.version.date = 2024-07-16
+	java.vm.compressedOopsMode = Non-zero based
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = OpenJDK BSD Porting Team
+	java.vm.version = 17.0.12+7-1
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = 0.0.0.0
+	jboss.bind.address.management = 0.0.0.0
+	jboss.home.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final
+	jboss.host.name = helios
+	jboss.modules.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = helios
+	jboss.qualified.host.name = helios.cs.ifmo.ru
+	jboss.server.base.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone
+	jboss.server.config.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration
+	jboss.server.data.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data
+	jboss.server.deploy.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content
+	jboss.server.log.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/log
+	jboss.server.name = helios
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/logging.properties
+	module.path = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/modules
+	native.encoding = UTF-8
+	org.jboss.boot.log.file = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = FreeBSD
+	os.version = 14.1-STABLE
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /usr/local/openjdk17/lib
+	sun.cpu.endian = little
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/jboss-modules.jar -mp /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final -Djboss.server.base.dir=/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone -b 0.0.0.0 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.port=7203 -Dcom.sun.management.jmxremote.rmi.port=7203 -Djava.rmi.server.hostname=0.0.0.0 -Djboss.bind.address.management=0.0.0.0 -Djboss.bind.address=0.0.0.0
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.stderr.encoding = UTF-8
+	sun.stdout.encoding = UTF-8
+	user.country = RU
+	user.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/bin
+	user.home = /home/studs/s408778
+	user.language = ru
+	user.name = s408778
+	user.timezone = Europe/Moscow
+2025-04-20 12:35:32,395 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/log/server.log -Dlogging.configuration=file:/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/logging.properties -Xmx512M -XX:MaxMetaspaceSize=3200m 
+2025-04-20 12:35:32,927 INFO  [org.wildfly.security] (ServerService Thread Pool -- 25) ELY00001: WildFly Elytron version 1.19.1.Final
+2025-04-20 12:36:17,298 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0001: Content added at location /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content/56/7cbabfa9735ed3d1f43b399562527c5544fd40/content
+2025-04-20 12:36:17,333 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2025-04-20 12:36:17,345 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.8.7.Final
+2025-04-20 12:36:17,350 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.8.7.Final
+2025-04-20 12:36:17,354 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("socket-binding-group" => "standard-sockets"),
+    ("socket-binding" => "ajp")
+]) - failure description: "WFLYCTL0116: 276002 is an invalid value for parameter port. A maximum value of 65535 is required"
+2025-04-20 12:36:17,369 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 52) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2025-04-20 12:36:17,370 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0001: Activating Infinispan subsystem.
+2025-04-20 12:36:17,372 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 56) WFLYRS0016: RESTEasy version 6.0.1.Final
+2025-04-20 12:36:17,372 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 53) WFLYHEALTH0001: Activating Base Health Subsystem
+2025-04-20 12:36:17,374 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2025-04-20 12:36:17,375 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 64) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2025-04-20 12:36:17,375 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 55) WFLYIO001: Worker 'default' has auto-configured to 32 IO threads with 256 max task threads based on your 16 available processors
+2025-04-20 12:36:17,379 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 65) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2025-04-20 12:36:17,382 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2025-04-20 12:36:17,383 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2025-04-20 12:36:17,385 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 66) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2025-04-20 12:36:17,388 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 63) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2025-04-20 12:36:17,405 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.25.Final
+2025-04-20 12:36:17,405 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2025-04-20 12:36:17,405 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2025-04-20 12:36:17,412 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2025-04-20 12:36:17,422 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 61) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2025-04-20 12:36:17,440 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY00023: KeyStore file '/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/application.keystore' does not exist. Used blank.
+2025-04-20 12:36:17,461 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.2.19.Final starting
+2025-04-20 12:36:17,461 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-6) WFLYELY01084: KeyStore /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2025-04-20 12:36:17,469 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+2025-04-20 12:36:17,472 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2025-04-20 12:36:17,472 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+2025-04-20 12:36:17,473 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = postgres
+2025-04-20 12:36:17,481 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2025-04-20 12:36:17,482 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2025-04-20 12:36:17,518 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path '/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2025-04-20 12:36:17,520 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2025-04-20 12:36:17,521 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) Queuing requests.
+2025-04-20 12:36:17,522 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2025-04-20 12:36:17,548 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:27600
+2025-04-20 12:36:17,561 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 256 (per class), which is derived from thread worker pool sizing.
+2025-04-20 12:36:17,561 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 64 (per class), which is derived from the number of CPUs on this host.
+2025-04-20 12:36:17,602 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:27601
+2025-04-20 12:36:17,603 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2025-04-20 12:36:17,647 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2025-04-20 12:36:21,427 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly Preview cumulative patch ID is: base, one-off patches include: none
+2025-04-20 12:36:21,430 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/deployments
+2025-04-20 12:36:21,436 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "web-3-1.0-SNAPSHOT.war" (runtime-name: "web-3-1.0-SNAPSHOT.war")
+2025-04-20 12:36:21,676 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 5.5.0.Final (Apache CXF 3.4.10) 
+2025-04-20 12:36:33,344 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for default
+2025-04-20 12:36:39,906 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV53020253: Second level cache enabled for web-3-1.0-SNAPSHOT.war#default
+2025-04-20 12:36:40,095 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment web-3-1.0-SNAPSHOT.war
+2025-04-20 12:36:40,255 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.10.Final
+2025-04-20 12:36:40,366 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2025-04-20 12:36:40,414 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 7.0.2.Final
+2025-04-20 12:36:40,690 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 80) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2025-04-20 12:36:40,741 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2025-04-20 12:36:40,743 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-8) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=web-3-1.0-SNAPSHOT.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@4612000e, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=helios.cs.ifmo.ru, jaeger.version=Java-1.6.0, ip=192.168.10.80}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2025-04-20 12:36:40,776 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV53020253: Second level cache enabled for web-3-1.0-SNAPSHOT.war#default
+2025-04-20 12:36:40,779 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'web-3-1.0-SNAPSHOT.war#default'
+2025-04-20 12:36:40,786 INFO  [org.infinispan.CONFIG] (MSC service thread 1-2) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2025-04-20 12:36:40,787 INFO  [org.infinispan.CONFIG] (MSC service thread 1-2) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2025-04-20 12:36:40,798 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2025-04-20 12:36:43,938 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2025-04-20 12:36:43,970 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 80) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2025-04-20 12:36:44,084 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.6)
+2025-04-20 12:36:44,109 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 4.0.3 (Final)
+2025-04-20 12:36:44,128 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 80) HHH000412: Hibernate Core {5.3.28.Final}
+2025-04-20 12:36:44,129 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 80) HHH000206: hibernate.properties not found
+2025-04-20 12:36:44,165 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = web-3-1.0-SNAPSHOT.war_org.postgresql.Driver_42_6
+2025-04-20 12:36:44,364 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 80) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2025-04-20 12:36:44,460 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'web-3-1.0-SNAPSHOT.war#default'
+2025-04-20 12:36:44,823 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 80) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-04-20 12:36:47,627 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 80) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2025-04-20 12:36:47,632 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 80) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@54c0e77e
+2025-04-20 12:36:47,651 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 80) Envers integration enabled? : true
+2025-04-20 12:36:51,528 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-7) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2025-04-20 12:36:52,055 INFO  [jakarta.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 91) Initializing Mojarra 3.0.0.SP04 for context '/web-3-1.0-SNAPSHOT'
+2025-04-20 12:37:00,618 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 91) Running on PrimeFaces 13.0.0
+2025-04-20 12:37:00,637 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0021: Registered web context: '/web-3-1.0-SNAPSHOT' for server 'default-server'
+2025-04-20 12:37:00,694 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 45) WFLYSRV0010: Deployed "web-3-1.0-SNAPSHOT.war" (runtime-name : "web-3-1.0-SNAPSHOT.war")
+2025-04-20 12:37:03,988 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2025-04-20 12:37:03,990 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) started in 95567ms - Started 523 of 703 services (340 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2025-04-20 12:37:03,992 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://0.0.0.0:27602/management
+2025-04-20 12:37:03,992 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://0.0.0.0:27602
+2025-04-20 12:37:28,505 ERROR [org.jboss.as.controller.management-operation] (External Management Request Threads -- 4) WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("socket-binding-group" => "standard-sockets"),
+    ("socket-binding" => "ajp")
+]): org.jboss.msc.service.ServiceNotFoundException: service org.wildfly.network.socket-binding.ajp not found
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceContainerImpl.getRequiredService(ServiceContainerImpl.java:674)
+	at org.jboss.as.controller@18.1.2.Final//org.jboss.as.controller.OperationContextImpl$OperationContextServiceRegistry.getRequiredService(OperationContextImpl.java:2297)
+	at org.jboss.as.server@18.1.2.Final//org.jboss.as.server.services.net.BindingRuntimeHandlers$AbstractBindingRuntimeHandler$1.execute(BindingRuntimeHandlers.java:62)
+	at org.jboss.as.controller@18.1.2.Final//org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:1045)
+	at org.jboss.as.controller@18.1.2.Final//org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:777)
+	at org.jboss.as.controller@18.1.2.Final//org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:466)
+	at org.jboss.as.controller@18.1.2.Final//org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1427)
+	at org.jboss.as.controller@18.1.2.Final//org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:449)
+	at org.jboss.as.controller@18.1.2.Final//org.jboss.as.controller.ModelControllerImpl.lambda$executeForResponse$0(ModelControllerImpl.java:260)
+	at org.wildfly.security.elytron-base@1.19.1.Final//org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:304)
+	at org.wildfly.security.elytron-base@1.19.1.Final//org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:270)
+	at org.jboss.as.controller@18.1.2.Final//org.jboss.as.controller.ModelControllerImpl.executeForResponse(ModelControllerImpl.java:260)
+	at org.jboss.as.controller@18.1.2.Final//org.jboss.as.controller.ModelControllerImpl.executeOperation(ModelControllerImpl.java:254)
+	at org.jboss.as.controller@18.1.2.Final//org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:237)
+	at org.jboss.as.domain-http-interface@18.1.2.Final//org.jboss.as.domain.http.server.DomainApiHandler.handleRequest(DomainApiHandler.java:213)
+	at io.undertow.core@2.2.19.Final//io.undertow.server.handlers.encoding.EncodingHandler.handleRequest(EncodingHandler.java:72)
+	at org.jboss.as.domain-http-interface@18.1.2.Final//org.jboss.as.domain.http.server.DomainApiCheckHandler.handleRequest(DomainApiCheckHandler.java:91)
+	at org.jboss.as.domain-http-interface@18.1.2.Final//org.jboss.as.domain.http.server.security.ElytronIdentityHandler.lambda$handleRequest$0(ElytronIdentityHandler.java:62)
+	at org.wildfly.security.elytron-base@1.19.1.Final//org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:328)
+	at org.wildfly.security.elytron-base@1.19.1.Final//org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:285)
+	at org.jboss.as.controller@18.1.2.Final//org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:254)
+	at org.jboss.as.controller@18.1.2.Final//org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:225)
+	at org.jboss.as.domain-http-interface@18.1.2.Final//org.jboss.as.domain.http.server.security.ElytronIdentityHandler.handleRequest(ElytronIdentityHandler.java:61)
+	at io.undertow.core@2.2.19.Final//io.undertow.server.handlers.BlockingHandler.handleRequest(BlockingHandler.java:56)
+	at io.undertow.core@2.2.19.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+	at io.undertow.core@2.2.19.Final//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:852)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2025-04-20 12:45:32,670 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 78) WFLYDR0009: Content /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content/2d/1a0e9c7dc6b915a4daa609afc83aef2222ae24 is obsolete and will be removed
+2025-04-20 12:45:32,698 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 78) WFLYDR0002: Content removed from location /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content/2d/1a0e9c7dc6b915a4daa609afc83aef2222ae24/content
+2025-04-20 13:27:49,299 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2025-04-20 13:27:49,443 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 13:27:49,443 INFO  [stdout] (default task-1)     select
+2025-04-20 13:27:49,443 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 13:27:49,443 INFO  [stdout] (default task-1)     from
+2025-04-20 13:27:49,443 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 13:27:49,499 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 13:27:49,500 INFO  [stdout] (default task-1)     select
+2025-04-20 13:27:49,500 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 13:27:49,500 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 13:27:49,500 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 13:27:49,500 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 13:27:49,500 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 13:27:49,500 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 13:27:49,500 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 13:27:49,500 INFO  [stdout] (default task-1)     from
+2025-04-20 13:27:49,500 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 13:27:49,560 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 13:27:49,560 INFO  [stdout] (default task-1)     select
+2025-04-20 13:27:49,560 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 13:27:49,560 INFO  [stdout] (default task-1)     from
+2025-04-20 13:27:49,560 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 13:27:49,563 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 13:27:49,563 INFO  [stdout] (default task-1)     select
+2025-04-20 13:27:49,563 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 13:27:49,563 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 13:27:49,563 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 13:27:49,563 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 13:27:49,564 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 13:27:49,564 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 13:27:49,564 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 13:27:49,564 INFO  [stdout] (default task-1)     from
+2025-04-20 13:27:49,564 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 13:27:53,137 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 13:27:53,137 INFO  [stdout] (default task-1)     select
+2025-04-20 13:27:53,137 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 13:27:53,137 INFO  [stdout] (default task-1)     from
+2025-04-20 13:27:53,137 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 13:27:53,139 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 13:27:53,139 INFO  [stdout] (default task-1)     select
+2025-04-20 13:27:53,139 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 13:27:53,139 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 13:27:53,139 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 13:27:53,140 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 13:27:53,140 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 13:27:53,140 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 13:27:53,140 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 13:27:53,140 INFO  [stdout] (default task-1)     from
+2025-04-20 13:27:53,140 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 13:27:57,267 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 13:27:57,267 INFO  [stdout] (default task-1)     insert 
+2025-04-20 13:27:57,267 INFO  [stdout] (default task-1)     into
+2025-04-20 13:27:57,267 INFO  [stdout] (default task-1)         attempts
+2025-04-20 13:27:57,268 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 13:27:57,268 INFO  [stdout] (default task-1)     values
+2025-04-20 13:27:57,268 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 13:27:57,334 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 13:27:57,334 INFO  [stdout] (default task-1)     select
+2025-04-20 13:27:57,335 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 13:27:57,335 INFO  [stdout] (default task-1)     from
+2025-04-20 13:27:57,335 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 13:27:57,336 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 13:27:57,336 INFO  [stdout] (default task-1)     select
+2025-04-20 13:27:57,336 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 13:27:57,336 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 13:27:57,337 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 13:27:57,337 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 13:27:57,337 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 13:27:57,337 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 13:27:57,337 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 13:27:57,337 INFO  [stdout] (default task-1)     from
+2025-04-20 13:27:57,337 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 13:27:57,348 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 13:27:57,348 INFO  [stdout] (default task-1)     select
+2025-04-20 13:27:57,348 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 13:27:57,349 INFO  [stdout] (default task-1)     from
+2025-04-20 13:27:57,349 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 13:27:57,350 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 13:27:57,350 INFO  [stdout] (default task-1)     select
+2025-04-20 13:27:57,350 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 13:27:57,350 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 13:27:57,350 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 13:27:57,350 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 13:27:57,350 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 13:27:57,350 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 13:27:57,350 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 13:27:57,351 INFO  [stdout] (default task-1)     from
+2025-04-20 13:27:57,351 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 14:31:06,595 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2025-04-20 14:31:06,597 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2025-04-20 14:31:06,599 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2025-04-20 14:31:06,603 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = web-3-1.0-SNAPSHOT.war_org.postgresql.Driver_42_6
+2025-04-20 14:31:06,605 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-04-20 14:31:06,605 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2025-04-20 14:31:06,608 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2025-04-20 14:31:06,608 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 91) WFLYUT0022: Unregistered web context: '/web-3-1.0-SNAPSHOT' from server 'default-server'
+2025-04-20 14:31:06,611 WARN  [org.jboss.remotingjmx.protocol.v2.ServerProxy] (pool-9-thread-6) Unable to send notification to listener 1
+2025-04-20 14:31:06,617 WARN  [org.jboss.remotingjmx.protocol.v2.ServerProxy] (pool-9-thread-4) Unable to send notification to listener 1
+2025-04-20 14:31:06,617 WARN  [org.jboss.remotingjmx.protocol.v2.ServerProxy] (pool-9-thread-5) Unable to send notification to listener 1
+2025-04-20 14:31:06,617 WARN  [org.jboss.remotingjmx.protocol.v2.ServerProxy] (pool-9-thread-3) Unable to send notification to listener 1
+2025-04-20 14:31:06,640 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2025-04-20 14:31:06,646 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 97) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'web-3-1.0-SNAPSHOT.war#default'
+2025-04-20 14:31:06,648 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 97) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@5eaff78c
+2025-04-20 14:31:06,649 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 98) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2025-04-20 14:31:06,650 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 97) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'web-3-1.0-SNAPSHOT.war#default'
+2025-04-20 14:31:06,651 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-04-20 14:31:06,653 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+2025-04-20 14:31:06,665 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2025-04-20 14:31:06,665 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTPS listener https suspending
+2025-04-20 14:31:06,666 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:27601
+2025-04-20 14:31:06,666 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:27600
+2025-04-20 14:31:06,666 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 2.2.19.Final stopping
+2025-04-20 14:31:06,857 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment web-3-1.0-SNAPSHOT.war (runtime-name: web-3-1.0-SNAPSHOT.war) in 253ms
+2025-04-20 14:31:06,859 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) stopped in 257ms
+2025-04-20 14:31:30,057 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.2.Final
+2025-04-20 14:31:33,560 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2025-04-20 14:31:33,566 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2025-04-20 14:31:33,657 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) starting
+2025-04-20 14:31:33,659 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	com.sun.management.jmxremote = true
+	com.sun.management.jmxremote.authenticate = false
+	com.sun.management.jmxremote.port = 27602
+	com.sun.management.jmxremote.rmi.port = 27602
+	com.sun.management.jmxremote.ssl = false
+	file.encoding = UTF-8
+	file.separator = /
+	java.awt.headless = true
+	java.class.path = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/jboss-modules.jar
+	java.class.version = 61.0
+	java.home = /usr/local/openjdk17
+	java.io.tmpdir = /tmp/
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib:/usr/local/lib
+	java.net.preferIPv4Stack = true
+	java.rmi.server.hostname = 0.0.0.0
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.12+7-1
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = OpenJDK BSD Porting Team
+	java.vendor.url = https://github.com/battleblow/jdk17u/
+	java.vendor.url.bug = https://bugs.freebsd.org/bugzilla/enter_bug.cgi?product=Ports%20%26%20Packages&component=Individual%20Port(s)&short_desc=java/openjdk17%3A%20
+	java.version = 17.0.12
+	java.version.date = 2024-07-16
+	java.vm.compressedOopsMode = Non-zero based
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = OpenJDK BSD Porting Team
+	java.vm.version = 17.0.12+7-1
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = 0.0.0.0
+	jboss.bind.address.management = 0.0.0.0
+	jboss.home.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final
+	jboss.host.name = helios
+	jboss.modules.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = helios
+	jboss.qualified.host.name = helios.cs.ifmo.ru
+	jboss.server.base.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone
+	jboss.server.config.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration
+	jboss.server.data.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data
+	jboss.server.deploy.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content
+	jboss.server.log.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/log
+	jboss.server.name = helios
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/logging.properties
+	module.path = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/modules
+	native.encoding = UTF-8
+	org.jboss.boot.log.file = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = FreeBSD
+	os.version = 14.1-STABLE
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /usr/local/openjdk17/lib
+	sun.cpu.endian = little
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/jboss-modules.jar -mp /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final -Djboss.server.base.dir=/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone -b 0.0.0.0 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.port=27602 -Dcom.sun.management.jmxremote.rmi.port=27602 -Djava.rmi.server.hostname=0.0.0.0 -Djboss.bind.address.management=0.0.0.0 -Djboss.bind.address=0.0.0.0
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.stderr.encoding = UTF-8
+	sun.stdout.encoding = UTF-8
+	user.country = RU
+	user.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/bin
+	user.home = /home/studs/s408778
+	user.language = ru
+	user.name = s408778
+	user.timezone = Europe/Moscow
+2025-04-20 14:31:33,662 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/log/server.log -Dlogging.configuration=file:/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/logging.properties -Xmx512M -XX:MaxMetaspaceSize=3200m 
+2025-04-20 14:31:34,199 INFO  [org.wildfly.security] (ServerService Thread Pool -- 25) ELY00001: WildFly Elytron version 1.19.1.Final
+2025-04-20 14:32:14,715 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 37) WFLYDR0001: Content added at location /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content/43/984b73dde0916c2a2fc847e6ff36ab9a5cab94/content
+2025-04-20 14:32:14,749 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2025-04-20 14:32:14,761 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.8.7.Final
+2025-04-20 14:32:14,767 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.8.7.Final
+2025-04-20 14:32:14,769 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("socket-binding-group" => "standard-sockets"),
+    ("socket-binding" => "ajp")
+]) - failure description: "WFLYCTL0116: 276002 is an invalid value for parameter port. A maximum value of 65535 is required"
+2025-04-20 14:32:14,784 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 56) WFLYRS0016: RESTEasy version 6.0.1.Final
+2025-04-20 14:32:14,784 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 52) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2025-04-20 14:32:14,786 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0001: Activating Infinispan subsystem.
+2025-04-20 14:32:14,788 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2025-04-20 14:32:14,789 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 64) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2025-04-20 14:32:14,791 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 55) WFLYIO001: Worker 'default' has auto-configured to 32 IO threads with 256 max task threads based on your 16 available processors
+2025-04-20 14:32:14,792 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 65) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2025-04-20 14:32:14,794 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2025-04-20 14:32:14,795 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 53) WFLYHEALTH0001: Activating Base Health Subsystem
+2025-04-20 14:32:14,800 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 61) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2025-04-20 14:32:14,801 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 66) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2025-04-20 14:32:14,801 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2025-04-20 14:32:14,804 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 63) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2025-04-20 14:32:14,815 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2025-04-20 14:32:14,832 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2025-04-20 14:32:14,833 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+2025-04-20 14:32:14,834 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2025-04-20 14:32:14,836 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+2025-04-20 14:32:14,836 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2025-04-20 14:32:14,837 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.2.19.Final starting
+2025-04-20 14:32:14,839 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.25.Final
+2025-04-20 14:32:14,843 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2025-04-20 14:32:14,847 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = postgres
+2025-04-20 14:32:14,848 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2025-04-20 14:32:18,087 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY00023: KeyStore file '/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/application.keystore' does not exist. Used blank.
+2025-04-20 14:32:18,100 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY01084: KeyStore /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2025-04-20 14:32:18,111 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path '/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2025-04-20 14:32:18,120 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2025-04-20 14:32:18,123 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) Queuing requests.
+2025-04-20 14:32:18,124 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 256 (per class), which is derived from thread worker pool sizing.
+2025-04-20 14:32:18,124 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 64 (per class), which is derived from the number of CPUs on this host.
+2025-04-20 14:32:18,124 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2025-04-20 14:32:18,158 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:27600
+2025-04-20 14:32:18,232 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2025-04-20 14:32:18,241 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:27601
+2025-04-20 14:32:18,273 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2025-04-20 14:32:18,332 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly Preview cumulative patch ID is: base, one-off patches include: none
+2025-04-20 14:32:18,336 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/deployments
+2025-04-20 14:32:18,341 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "web-3-1.0-SNAPSHOT.war" (runtime-name: "web-3-1.0-SNAPSHOT.war")
+2025-04-20 14:32:18,381 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.5.0.Final (Apache CXF 3.4.10) 
+2025-04-20 14:32:31,159 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for default
+2025-04-20 14:32:31,338 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV53020253: Second level cache enabled for web-3-1.0-SNAPSHOT.war#default
+2025-04-20 14:32:31,450 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment web-3-1.0-SNAPSHOT.war
+2025-04-20 14:32:31,571 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 7.0.2.Final
+2025-04-20 14:32:32,712 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.10.Final
+2025-04-20 14:32:32,817 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2025-04-20 14:32:32,887 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2025-04-20 14:32:32,889 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-8) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=web-3-1.0-SNAPSHOT.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@2efb6581, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=helios.cs.ifmo.ru, jaeger.version=Java-1.6.0, ip=192.168.10.80}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2025-04-20 14:32:32,922 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV53020253: Second level cache enabled for web-3-1.0-SNAPSHOT.war#default
+2025-04-20 14:32:32,923 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 80) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2025-04-20 14:32:33,110 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.6)
+2025-04-20 14:32:33,130 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 4.0.3 (Final)
+2025-04-20 14:32:33,150 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'web-3-1.0-SNAPSHOT.war#default'
+2025-04-20 14:32:33,156 INFO  [org.infinispan.CONFIG] (MSC service thread 1-2) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2025-04-20 14:32:33,157 INFO  [org.infinispan.CONFIG] (MSC service thread 1-2) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2025-04-20 14:32:33,167 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2025-04-20 14:32:33,167 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 80) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2025-04-20 14:32:33,170 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2025-04-20 14:32:33,189 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = web-3-1.0-SNAPSHOT.war_org.postgresql.Driver_42_6
+2025-04-20 14:32:33,226 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 80) HHH000412: Hibernate Core {5.3.28.Final}
+2025-04-20 14:32:33,227 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 80) HHH000206: hibernate.properties not found
+2025-04-20 14:32:33,370 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 80) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2025-04-20 14:32:33,487 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'web-3-1.0-SNAPSHOT.war#default'
+2025-04-20 14:32:38,055 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 80) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-04-20 14:32:38,740 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 80) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2025-04-20 14:32:38,744 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 80) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@691e248e
+2025-04-20 14:32:38,748 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 80) Envers integration enabled? : true
+2025-04-20 14:32:39,483 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-3) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2025-04-20 14:32:45,251 INFO  [jakarta.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 86) Initializing Mojarra 3.0.0.SP04 for context '/web-3-1.0-SNAPSHOT'
+2025-04-20 14:32:50,651 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 86) Running on PrimeFaces 13.0.0
+2025-04-20 14:32:50,670 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0021: Registered web context: '/web-3-1.0-SNAPSHOT' for server 'default-server'
+2025-04-20 14:32:50,743 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 45) WFLYSRV0010: Deployed "web-3-1.0-SNAPSHOT.war" (runtime-name : "web-3-1.0-SNAPSHOT.war")
+2025-04-20 14:32:50,787 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2025-04-20 14:32:50,790 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) started in 81013ms - Started 523 of 703 services (340 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2025-04-20 14:32:50,792 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://0.0.0.0:27602/management
+2025-04-20 14:32:50,792 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://0.0.0.0:27602
+2025-04-20 14:46:33,929 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 78) WFLYDR0009: Content /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content/56/7cbabfa9735ed3d1f43b399562527c5544fd40 is obsolete and will be removed
+2025-04-20 14:46:33,958 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 78) WFLYDR0002: Content removed from location /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content/56/7cbabfa9735ed3d1f43b399562527c5544fd40/content
+2025-04-20 15:26:05,971 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2025-04-20 15:26:06,000 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2025-04-20 15:26:06,002 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2025-04-20 15:26:06,006 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = web-3-1.0-SNAPSHOT.war_org.postgresql.Driver_42_6
+2025-04-20 15:26:06,010 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-04-20 15:26:06,010 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2025-04-20 15:26:06,012 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 86) WFLYUT0022: Unregistered web context: '/web-3-1.0-SNAPSHOT' from server 'default-server'
+2025-04-20 15:26:06,012 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2025-04-20 15:26:06,040 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2025-04-20 15:26:06,047 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 96) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'web-3-1.0-SNAPSHOT.war#default'
+2025-04-20 15:26:06,048 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 96) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@2231d55b
+2025-04-20 15:26:06,048 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 101) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2025-04-20 15:26:06,051 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 96) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'web-3-1.0-SNAPSHOT.war#default'
+2025-04-20 15:26:06,052 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-04-20 15:26:06,053 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+2025-04-20 15:26:06,066 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTPS listener https suspending
+2025-04-20 15:26:06,066 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2025-04-20 15:26:06,066 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:27601
+2025-04-20 15:26:06,066 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:27600
+2025-04-20 15:26:06,067 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 2.2.19.Final stopping
+2025-04-20 15:26:06,196 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment web-3-1.0-SNAPSHOT.war (runtime-name: web-3-1.0-SNAPSHOT.war) in 189ms
+2025-04-20 15:26:06,200 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) stopped in 195ms
+2025-04-20 15:26:17,126 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.2.Final
+2025-04-20 15:26:17,539 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2025-04-20 15:26:17,547 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2025-04-20 15:26:17,645 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) starting
+2025-04-20 15:26:17,647 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	com.sun.management.jmxremote = true
+	com.sun.management.jmxremote.authenticate = false
+	com.sun.management.jmxremote.port = 27602
+	com.sun.management.jmxremote.rmi.port = 27602
+	com.sun.management.jmxremote.ssl = false
+	file.encoding = UTF-8
+	file.separator = /
+	java.awt.headless = true
+	java.class.path = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/jboss-modules.jar
+	java.class.version = 61.0
+	java.home = /usr/local/openjdk17
+	java.io.tmpdir = /tmp/
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib:/usr/local/lib
+	java.net.preferIPv4Stack = true
+	java.rmi.server.hostname = 0.0.0.0
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.12+7-1
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = OpenJDK BSD Porting Team
+	java.vendor.url = https://github.com/battleblow/jdk17u/
+	java.vendor.url.bug = https://bugs.freebsd.org/bugzilla/enter_bug.cgi?product=Ports%20%26%20Packages&component=Individual%20Port(s)&short_desc=java/openjdk17%3A%20
+	java.version = 17.0.12
+	java.version.date = 2024-07-16
+	java.vm.compressedOopsMode = Non-zero based
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = OpenJDK BSD Porting Team
+	java.vm.version = 17.0.12+7-1
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = 0.0.0.0
+	jboss.bind.address.management = 0.0.0.0
+	jboss.home.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final
+	jboss.host.name = helios
+	jboss.modules.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = helios
+	jboss.qualified.host.name = helios.cs.ifmo.ru
+	jboss.server.base.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone
+	jboss.server.config.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration
+	jboss.server.data.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data
+	jboss.server.deploy.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content
+	jboss.server.log.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/log
+	jboss.server.name = helios
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/logging.properties
+	module.path = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/modules
+	native.encoding = UTF-8
+	org.jboss.boot.log.file = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = FreeBSD
+	os.version = 14.1-STABLE
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /usr/local/openjdk17/lib
+	sun.cpu.endian = little
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/jboss-modules.jar -mp /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final -Djboss.server.base.dir=/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone -b 0.0.0.0 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.port=27602 -Dcom.sun.management.jmxremote.rmi.port=27602 -Djava.rmi.server.hostname=0.0.0.0 -Djboss.bind.address.management=0.0.0.0 -Djboss.bind.address=0.0.0.0
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.stderr.encoding = UTF-8
+	sun.stdout.encoding = UTF-8
+	user.country = RU
+	user.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/bin
+	user.home = /home/studs/s408778
+	user.language = ru
+	user.name = s408778
+	user.timezone = Europe/Moscow
+2025-04-20 15:26:17,649 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/log/server.log -Dlogging.configuration=file:/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/logging.properties -Xmx512M -XX:MaxMetaspaceSize=3200m 
+2025-04-20 15:26:29,677 INFO  [org.wildfly.security] (ServerService Thread Pool -- 24) ELY00001: WildFly Elytron version 1.19.1.Final
+2025-04-20 15:27:02,913 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 37) WFLYDR0001: Content added at location /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content/6c/9fc255b498896bc1a364a2c813e4c44f15e84e/content
+2025-04-20 15:27:02,946 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2025-04-20 15:27:02,961 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.8.7.Final
+2025-04-20 15:27:02,966 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.8.7.Final
+2025-04-20 15:27:02,969 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("socket-binding-group" => "standard-sockets"),
+    ("socket-binding" => "ajp")
+]) - failure description: "WFLYCTL0116: 276002 is an invalid value for parameter port. A maximum value of 65535 is required"
+2025-04-20 15:27:02,985 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 56) WFLYRS0016: RESTEasy version 6.0.1.Final
+2025-04-20 15:27:02,985 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 52) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2025-04-20 15:27:02,987 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2025-04-20 15:27:02,988 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0001: Activating Infinispan subsystem.
+2025-04-20 15:27:02,989 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 53) WFLYHEALTH0001: Activating Base Health Subsystem
+2025-04-20 15:27:02,989 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 65) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2025-04-20 15:27:02,992 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 64) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2025-04-20 15:27:02,992 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 55) WFLYIO001: Worker 'default' has auto-configured to 32 IO threads with 256 max task threads based on your 16 available processors
+2025-04-20 15:27:02,997 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2025-04-20 15:27:02,997 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2025-04-20 15:27:03,001 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 61) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2025-04-20 15:27:03,003 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 66) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2025-04-20 15:27:03,005 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 63) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2025-04-20 15:27:03,007 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2025-04-20 15:27:03,025 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.25.Final
+2025-04-20 15:27:03,030 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2025-04-20 15:27:03,031 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2025-04-20 15:27:03,031 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+2025-04-20 15:27:03,034 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.2.19.Final starting
+2025-04-20 15:27:03,036 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2025-04-20 15:27:03,036 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+2025-04-20 15:27:03,036 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = postgres
+2025-04-20 15:27:03,043 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2025-04-20 15:27:03,050 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2025-04-20 15:27:03,061 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY00023: KeyStore file '/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/application.keystore' does not exist. Used blank.
+2025-04-20 15:27:03,072 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY01084: KeyStore /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2025-04-20 15:27:03,094 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path '/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2025-04-20 15:27:03,104 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2025-04-20 15:27:03,105 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
+2025-04-20 15:27:03,106 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2025-04-20 15:27:03,118 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 256 (per class), which is derived from thread worker pool sizing.
+2025-04-20 15:27:03,118 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 64 (per class), which is derived from the number of CPUs on this host.
+2025-04-20 15:27:03,141 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:27600
+2025-04-20 15:27:03,230 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2025-04-20 15:27:03,239 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:27601
+2025-04-20 15:27:03,282 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2025-04-20 15:27:03,367 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly Preview cumulative patch ID is: base, one-off patches include: none
+2025-04-20 15:27:03,371 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/deployments
+2025-04-20 15:27:03,377 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "web-3-1.0-SNAPSHOT.war" (runtime-name: "web-3-1.0-SNAPSHOT.war")
+2025-04-20 15:27:03,412 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.5.0.Final (Apache CXF 3.4.10) 
+2025-04-20 15:27:21,300 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for default
+2025-04-20 15:27:21,508 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV53020253: Second level cache enabled for web-3-1.0-SNAPSHOT.war#default
+2025-04-20 15:27:21,621 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment web-3-1.0-SNAPSHOT.war
+2025-04-20 15:27:21,736 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 7.0.2.Final
+2025-04-20 15:27:21,834 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.10.Final
+2025-04-20 15:27:21,954 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2025-04-20 15:27:22,033 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 80) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2025-04-20 15:27:22,050 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2025-04-20 15:27:22,052 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-2) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=web-3-1.0-SNAPSHOT.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@6098fa63, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=helios.cs.ifmo.ru, jaeger.version=Java-1.6.0, ip=192.168.10.80}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2025-04-20 15:27:22,083 INFO  [org.jipijapa] (MSC service thread 1-3) JIPIORMV53020253: Second level cache enabled for web-3-1.0-SNAPSHOT.war#default
+2025-04-20 15:27:25,341 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.6)
+2025-04-20 15:27:25,360 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 4.0.3 (Final)
+2025-04-20 15:27:25,374 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'web-3-1.0-SNAPSHOT.war#default'
+2025-04-20 15:27:25,384 INFO  [org.infinispan.CONFIG] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2025-04-20 15:27:25,385 INFO  [org.infinispan.CONFIG] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2025-04-20 15:27:25,392 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 80) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2025-04-20 15:27:25,395 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2025-04-20 15:27:25,398 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2025-04-20 15:27:25,425 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = web-3-1.0-SNAPSHOT.war_org.postgresql.Driver_42_6
+2025-04-20 15:27:25,457 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 80) HHH000412: Hibernate Core {5.3.28.Final}
+2025-04-20 15:27:25,458 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 80) HHH000206: hibernate.properties not found
+2025-04-20 15:27:25,597 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 80) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2025-04-20 15:27:25,698 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'web-3-1.0-SNAPSHOT.war#default'
+2025-04-20 15:27:26,009 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 80) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-04-20 15:27:29,937 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 80) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2025-04-20 15:27:29,941 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 80) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@299c9601
+2025-04-20 15:27:29,945 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 80) Envers integration enabled? : true
+2025-04-20 15:27:31,737 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2025-04-20 15:27:32,253 INFO  [jakarta.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 90) Initializing Mojarra 3.0.0.SP04 for context '/web-3-1.0-SNAPSHOT'
+2025-04-20 15:27:40,640 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 90) Running on PrimeFaces 13.0.0
+2025-04-20 15:27:40,659 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0021: Registered web context: '/web-3-1.0-SNAPSHOT' for server 'default-server'
+2025-04-20 15:27:40,719 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 45) WFLYSRV0010: Deployed "web-3-1.0-SNAPSHOT.war" (runtime-name : "web-3-1.0-SNAPSHOT.war")
+2025-04-20 15:27:40,782 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2025-04-20 15:27:40,784 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) started in 87064ms - Started 523 of 703 services (340 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2025-04-20 15:27:40,786 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://0.0.0.0:27602/management
+2025-04-20 15:27:40,786 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://0.0.0.0:27602
+2025-04-20 15:30:31,338 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2025-04-20 15:30:31,415 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:30:31,415 INFO  [stdout] (default task-1)     select
+2025-04-20 15:30:31,415 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:30:31,415 INFO  [stdout] (default task-1)     from
+2025-04-20 15:30:31,415 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:30:31,431 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:30:31,432 INFO  [stdout] (default task-1)     select
+2025-04-20 15:30:31,432 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:30:31,432 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:30:31,432 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:30:31,432 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:30:31,432 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:30:31,432 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:30:31,432 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:30:31,433 INFO  [stdout] (default task-1)     from
+2025-04-20 15:30:31,433 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:30:31,503 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:30:31,503 INFO  [stdout] (default task-1)     select
+2025-04-20 15:30:31,503 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:30:31,503 INFO  [stdout] (default task-1)     from
+2025-04-20 15:30:31,503 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:30:31,506 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:30:31,507 INFO  [stdout] (default task-1)     select
+2025-04-20 15:30:31,507 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:30:31,507 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:30:31,507 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:30:31,507 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:30:31,507 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:30:31,507 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:30:31,507 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:30:31,507 INFO  [stdout] (default task-1)     from
+2025-04-20 15:30:31,507 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:30:32,846 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:30:32,847 INFO  [stdout] (default task-1)     select
+2025-04-20 15:30:32,847 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:30:32,847 INFO  [stdout] (default task-1)     from
+2025-04-20 15:30:32,847 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:30:32,849 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:30:32,849 INFO  [stdout] (default task-1)     select
+2025-04-20 15:30:32,849 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:30:32,849 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:30:32,849 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:30:32,849 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:30:32,849 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:30:32,849 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:30:32,849 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:30:32,850 INFO  [stdout] (default task-1)     from
+2025-04-20 15:30:32,850 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:30:32,862 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:30:32,862 INFO  [stdout] (default task-1)     select
+2025-04-20 15:30:32,862 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:30:32,862 INFO  [stdout] (default task-1)     from
+2025-04-20 15:30:32,862 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:30:32,864 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:30:32,864 INFO  [stdout] (default task-1)     select
+2025-04-20 15:30:32,864 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:30:32,864 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:30:32,864 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:30:32,864 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:30:32,864 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:30:32,864 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:30:32,864 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:30:32,865 INFO  [stdout] (default task-1)     from
+2025-04-20 15:30:32,865 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:34:08,427 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:08,427 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:08,427 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:34:08,427 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:08,427 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:34:08,429 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:08,429 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:08,429 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:34:08,429 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:34:08,429 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:34:08,429 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:34:08,430 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:34:08,430 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:34:08,430 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:34:08,430 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:08,430 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:34:08,440 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:08,440 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:08,440 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:34:08,440 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:08,440 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:34:08,441 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:08,441 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:08,441 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:34:08,441 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:34:08,441 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:34:08,441 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:34:08,442 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:34:08,442 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:34:08,442 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:34:08,442 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:08,442 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:34:25,312 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:25,312 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:25,312 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:34:25,312 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:25,312 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:34:25,314 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:25,314 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:25,314 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:34:25,314 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:34:25,314 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:34:25,314 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:34:25,314 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:34:25,314 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:34:25,314 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:34:25,315 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:25,315 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:34:29,893 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:29,893 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:34:29,893 INFO  [stdout] (default task-1)     into
+2025-04-20 15:34:29,894 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:34:29,894 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:34:29,894 INFO  [stdout] (default task-1)     values
+2025-04-20 15:34:29,894 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:34:29,959 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:29,959 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:29,959 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:34:29,959 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:29,959 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:34:29,961 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:29,961 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:29,961 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:34:29,961 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:34:29,961 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:34:29,961 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:34:29,961 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:34:29,961 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:34:29,961 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:34:29,961 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:29,961 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:34:29,972 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:29,973 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:29,973 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:34:29,973 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:29,973 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:34:29,974 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:29,974 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:29,974 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:34:29,974 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:34:29,975 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:34:29,975 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:34:29,975 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:34:29,975 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:34:29,975 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:34:29,975 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:29,975 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:34:48,436 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:48,436 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:34:48,436 INFO  [stdout] (default task-1)     into
+2025-04-20 15:34:48,436 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:34:48,436 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:34:48,436 INFO  [stdout] (default task-1)     values
+2025-04-20 15:34:48,436 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:34:48,473 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:48,474 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:48,474 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:34:48,474 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:48,474 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:34:48,475 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:48,475 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:48,475 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:34:48,475 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:34:48,475 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:34:48,475 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:34:48,475 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:34:48,475 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:34:48,475 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:34:48,475 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:48,475 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:34:48,486 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:48,486 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:48,486 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:34:48,486 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:48,486 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:34:48,487 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:48,487 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:48,487 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:34:48,487 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:34:48,487 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:34:48,487 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:34:48,487 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:34:48,487 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:34:48,487 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:34:48,487 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:48,487 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:34:49,856 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:49,856 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:34:49,856 INFO  [stdout] (default task-1)     into
+2025-04-20 15:34:49,857 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:34:49,857 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:34:49,857 INFO  [stdout] (default task-1)     values
+2025-04-20 15:34:49,857 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:34:49,884 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:49,884 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:49,884 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:34:49,884 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:49,884 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:34:49,885 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:49,885 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:49,885 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:34:49,885 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:34:49,885 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:34:49,886 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:34:49,886 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:34:49,886 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:34:49,886 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:34:49,886 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:49,886 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:34:49,896 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:49,896 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:49,896 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:34:49,897 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:49,897 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:34:49,897 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:49,897 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:49,898 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:34:49,898 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:34:49,898 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:34:49,898 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:34:49,898 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:34:49,898 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:34:49,898 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:34:49,898 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:49,898 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:34:55,832 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:55,832 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:34:55,832 INFO  [stdout] (default task-1)     into
+2025-04-20 15:34:55,832 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:34:55,833 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:34:55,833 INFO  [stdout] (default task-1)     values
+2025-04-20 15:34:55,833 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:34:55,869 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:55,870 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:55,870 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:34:55,870 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:55,870 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:34:55,871 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:55,871 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:55,871 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:34:55,871 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:34:55,871 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:34:55,871 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:34:55,871 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:34:55,871 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:34:55,871 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:34:55,871 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:55,871 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:34:55,881 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:55,881 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:55,881 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:34:55,881 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:55,881 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:34:55,882 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:34:55,883 INFO  [stdout] (default task-1)     select
+2025-04-20 15:34:55,883 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:34:55,883 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:34:55,883 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:34:55,883 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:34:55,883 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:34:55,883 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:34:55,883 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:34:55,883 INFO  [stdout] (default task-1)     from
+2025-04-20 15:34:55,883 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:35:02,140 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:02,140 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:35:02,140 INFO  [stdout] (default task-1)     into
+2025-04-20 15:35:02,140 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:35:02,140 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:35:02,140 INFO  [stdout] (default task-1)     values
+2025-04-20 15:35:02,140 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:35:02,175 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:02,175 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:02,175 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:35:02,175 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:02,175 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:35:02,177 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:02,177 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:02,177 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:35:02,177 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:35:02,177 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:35:02,177 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:35:02,177 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:35:02,177 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:35:02,177 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:35:02,177 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:02,177 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:35:02,187 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:02,187 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:02,187 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:35:02,187 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:02,187 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:35:02,189 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:02,189 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:02,189 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:35:02,189 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:35:02,189 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:35:02,189 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:35:02,189 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:35:02,189 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:35:02,189 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:35:02,189 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:02,189 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:35:38,408 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:38,408 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:38,408 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:35:38,408 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:38,408 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:35:38,409 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:38,410 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:38,410 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:35:38,410 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:35:38,410 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:35:38,410 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:35:38,410 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:35:38,410 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:35:38,410 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:35:38,410 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:38,410 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:35:39,708 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:39,709 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:35:39,709 INFO  [stdout] (default task-1)     into
+2025-04-20 15:35:39,709 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:35:39,709 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:35:39,709 INFO  [stdout] (default task-1)     values
+2025-04-20 15:35:39,709 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:35:39,747 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:39,747 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:39,748 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:35:39,748 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:39,748 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:35:39,749 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:39,749 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:39,749 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:35:39,749 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:35:39,749 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:35:39,749 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:35:39,749 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:35:39,749 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:35:39,749 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:35:39,749 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:39,749 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:35:39,759 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:39,759 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:39,759 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:35:39,759 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:39,759 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:35:39,760 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:39,760 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:39,760 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:35:39,760 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:35:39,760 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:35:39,761 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:35:39,761 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:35:39,761 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:35:39,761 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:35:39,761 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:39,761 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:35:46,176 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:46,176 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:46,176 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:35:46,176 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:46,176 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:35:46,177 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:46,177 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:46,178 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:35:46,178 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:35:46,178 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:35:46,178 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:35:46,178 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:35:46,178 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:35:46,178 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:35:46,178 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:46,178 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:35:46,906 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:46,906 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:35:46,906 INFO  [stdout] (default task-1)     into
+2025-04-20 15:35:46,906 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:35:46,907 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:35:46,907 INFO  [stdout] (default task-1)     values
+2025-04-20 15:35:46,907 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:35:46,947 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:46,947 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:46,947 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:35:46,947 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:46,947 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:35:46,948 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:46,948 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:46,948 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:35:46,948 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:35:46,948 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:35:46,948 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:35:46,948 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:35:46,948 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:35:46,948 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:35:46,948 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:46,948 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:35:46,957 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:46,957 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:46,957 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:35:46,957 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:46,957 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:35:46,958 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:46,958 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:46,958 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:35:46,958 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:35:46,958 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:35:46,958 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:35:46,958 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:35:46,958 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:35:46,958 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:35:46,958 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:46,958 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:35:52,391 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:52,392 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:52,392 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:35:52,392 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:52,392 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:35:52,393 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:52,393 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:52,393 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:35:52,393 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:35:52,393 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:35:52,393 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:35:52,393 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:35:52,393 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:35:52,393 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:35:52,393 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:52,394 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:35:52,758 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:52,758 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:35:52,758 INFO  [stdout] (default task-1)     into
+2025-04-20 15:35:52,758 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:35:52,758 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:35:52,758 INFO  [stdout] (default task-1)     values
+2025-04-20 15:35:52,758 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:35:52,789 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:52,790 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:52,790 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:35:52,790 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:52,790 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:35:52,791 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:52,791 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:52,791 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:35:52,791 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:35:52,791 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:35:52,791 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:35:52,791 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:35:52,791 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:35:52,791 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:35:52,791 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:52,791 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:35:52,799 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:52,799 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:52,799 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:35:52,799 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:52,799 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:35:52,800 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:35:52,800 INFO  [stdout] (default task-1)     select
+2025-04-20 15:35:52,800 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:35:52,800 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:35:52,800 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:35:52,800 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:35:52,800 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:35:52,800 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:35:52,800 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:35:52,800 INFO  [stdout] (default task-1)     from
+2025-04-20 15:35:52,801 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:36:17,910 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 41) WFLYDR0009: Content /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content/43/984b73dde0916c2a2fc847e6ff36ab9a5cab94 is obsolete and will be removed
+2025-04-20 15:36:17,936 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 41) WFLYDR0002: Content removed from location /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content/43/984b73dde0916c2a2fc847e6ff36ab9a5cab94/content
+2025-04-20 15:36:36,646 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:36:36,646 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:36:36,646 INFO  [stdout] (default task-1)     into
+2025-04-20 15:36:36,646 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:36:36,646 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:36:36,646 INFO  [stdout] (default task-1)     values
+2025-04-20 15:36:36,646 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:36:36,666 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:36:36,666 INFO  [stdout] (default task-1)     select
+2025-04-20 15:36:36,666 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:36:36,666 INFO  [stdout] (default task-1)     from
+2025-04-20 15:36:36,666 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:36:36,668 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:36:36,668 INFO  [stdout] (default task-1)     select
+2025-04-20 15:36:36,668 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:36:36,668 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:36:36,668 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:36:36,668 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:36:36,668 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:36:36,668 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:36:36,668 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:36:36,668 INFO  [stdout] (default task-1)     from
+2025-04-20 15:36:36,668 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:36:36,676 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:36:36,676 INFO  [stdout] (default task-1)     select
+2025-04-20 15:36:36,676 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:36:36,676 INFO  [stdout] (default task-1)     from
+2025-04-20 15:36:36,676 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:36:36,677 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:36:36,677 INFO  [stdout] (default task-1)     select
+2025-04-20 15:36:36,677 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:36:36,677 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:36:36,677 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:36:36,677 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:36:36,677 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:36:36,677 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:36:36,677 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:36:36,678 INFO  [stdout] (default task-1)     from
+2025-04-20 15:36:36,678 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:36:45,928 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:36:45,929 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:36:45,929 INFO  [stdout] (default task-1)     into
+2025-04-20 15:36:45,929 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:36:45,929 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:36:45,929 INFO  [stdout] (default task-1)     values
+2025-04-20 15:36:45,929 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:36:45,965 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:36:45,965 INFO  [stdout] (default task-1)     select
+2025-04-20 15:36:45,965 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:36:45,965 INFO  [stdout] (default task-1)     from
+2025-04-20 15:36:45,965 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:36:45,966 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:36:45,967 INFO  [stdout] (default task-1)     select
+2025-04-20 15:36:45,967 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:36:45,967 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:36:45,967 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:36:45,967 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:36:45,967 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:36:45,967 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:36:45,967 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:36:45,967 INFO  [stdout] (default task-1)     from
+2025-04-20 15:36:45,967 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:36:45,974 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:36:45,975 INFO  [stdout] (default task-1)     select
+2025-04-20 15:36:45,975 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:36:45,975 INFO  [stdout] (default task-1)     from
+2025-04-20 15:36:45,975 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:36:45,976 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:36:45,976 INFO  [stdout] (default task-1)     select
+2025-04-20 15:36:45,976 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:36:45,976 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:36:45,976 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:36:45,976 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:36:45,976 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:36:45,976 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:36:45,976 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:36:45,976 INFO  [stdout] (default task-1)     from
+2025-04-20 15:36:45,976 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:36:48,105 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:36:48,106 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:36:48,106 INFO  [stdout] (default task-1)     into
+2025-04-20 15:36:48,106 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:36:48,106 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:36:48,106 INFO  [stdout] (default task-1)     values
+2025-04-20 15:36:48,106 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:36:48,139 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:36:48,139 INFO  [stdout] (default task-1)     select
+2025-04-20 15:36:48,139 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:36:48,139 INFO  [stdout] (default task-1)     from
+2025-04-20 15:36:48,139 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:36:48,140 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:36:48,140 INFO  [stdout] (default task-1)     select
+2025-04-20 15:36:48,140 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:36:48,140 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:36:48,140 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:36:48,140 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:36:48,140 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:36:48,140 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:36:48,140 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:36:48,140 INFO  [stdout] (default task-1)     from
+2025-04-20 15:36:48,140 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:36:48,148 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:36:48,148 INFO  [stdout] (default task-1)     select
+2025-04-20 15:36:48,148 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:36:48,148 INFO  [stdout] (default task-1)     from
+2025-04-20 15:36:48,148 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:36:48,149 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:36:48,149 INFO  [stdout] (default task-1)     select
+2025-04-20 15:36:48,149 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:36:48,149 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:36:48,149 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:36:48,149 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:36:48,150 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:36:48,150 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:36:48,150 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:36:48,150 INFO  [stdout] (default task-1)     from
+2025-04-20 15:36:48,150 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:40:29,793 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:29,793 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:40:29,793 INFO  [stdout] (default task-1)     into
+2025-04-20 15:40:29,793 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:40:29,793 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:40:29,793 INFO  [stdout] (default task-1)     values
+2025-04-20 15:40:29,793 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:40:29,827 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:29,827 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:29,827 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:29,827 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:29,827 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:29,828 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:29,828 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:29,829 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:29,829 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:29,829 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:29,829 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:29,829 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:29,829 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:29,829 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:29,829 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:29,829 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:40:29,836 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:29,836 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:29,836 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:29,836 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:29,836 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:29,837 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:29,837 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:29,837 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:29,837 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:29,837 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:29,837 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:29,837 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:29,837 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:29,837 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:29,837 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:29,837 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:40:30,534 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:30,534 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:40:30,534 INFO  [stdout] (default task-1)     into
+2025-04-20 15:40:30,534 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:40:30,534 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:40:30,534 INFO  [stdout] (default task-1)     values
+2025-04-20 15:40:30,534 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:40:30,567 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:30,567 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:30,567 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:30,567 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:30,567 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:30,568 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:30,568 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:30,568 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:30,568 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:30,569 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:30,569 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:30,569 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:30,569 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:30,569 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:30,569 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:30,569 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:40:30,576 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:30,576 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:30,576 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:30,576 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:30,576 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:30,577 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:30,577 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:30,577 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:30,577 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:30,577 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:30,577 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:30,577 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:30,577 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:30,577 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:30,577 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:30,577 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:40:31,239 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:31,239 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:40:31,239 INFO  [stdout] (default task-1)     into
+2025-04-20 15:40:31,239 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:40:31,239 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:40:31,239 INFO  [stdout] (default task-1)     values
+2025-04-20 15:40:31,239 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:40:31,271 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:31,272 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:31,272 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:31,272 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:31,272 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:31,273 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:31,273 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:31,273 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:31,273 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:31,273 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:31,273 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:31,273 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:31,273 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:31,273 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:31,273 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:31,273 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:40:31,280 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:31,280 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:31,280 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:31,280 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:31,280 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:31,281 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:31,281 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:31,281 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:31,281 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:31,281 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:31,281 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:31,281 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:31,281 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:31,281 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:31,281 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:31,281 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:40:31,935 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:31,935 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:40:31,935 INFO  [stdout] (default task-1)     into
+2025-04-20 15:40:31,935 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:40:31,935 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:40:31,935 INFO  [stdout] (default task-1)     values
+2025-04-20 15:40:31,935 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:40:31,969 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:31,969 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:31,969 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:31,969 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:31,969 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:31,970 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:31,970 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:31,970 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:31,970 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:31,971 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:31,971 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:31,971 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:31,971 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:31,971 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:31,971 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:31,971 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:40:31,977 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:31,977 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:31,978 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:31,978 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:31,978 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:31,978 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:31,979 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:31,979 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:31,979 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:31,979 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:31,979 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:31,979 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:31,979 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:31,979 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:31,979 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:31,979 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:40:34,305 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:34,305 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:40:34,305 INFO  [stdout] (default task-1)     into
+2025-04-20 15:40:34,306 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:40:34,306 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:40:34,306 INFO  [stdout] (default task-1)     values
+2025-04-20 15:40:34,306 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:40:34,339 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:34,339 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:34,339 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:34,340 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:34,340 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:34,342 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:34,342 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:34,342 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:34,342 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:34,342 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:34,342 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:34,342 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:34,342 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:34,342 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:34,342 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:34,342 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:40:34,355 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:34,355 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:34,355 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:34,355 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:34,355 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:34,357 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:34,357 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:34,357 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:34,357 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:34,357 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:34,357 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:34,357 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:34,357 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:34,357 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:34,357 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:34,357 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:40:34,872 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:34,872 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:40:34,872 INFO  [stdout] (default task-1)     into
+2025-04-20 15:40:34,872 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:40:34,872 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:40:34,872 INFO  [stdout] (default task-1)     values
+2025-04-20 15:40:34,872 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:40:34,905 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:34,905 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:34,905 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:34,905 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:34,905 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:34,907 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:34,907 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:34,907 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:34,907 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:34,907 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:34,907 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:34,907 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:34,907 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:34,907 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:34,907 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:34,907 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:40:34,914 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:34,914 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:34,914 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:34,914 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:34,914 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:34,915 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:34,915 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:34,915 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:34,915 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:34,915 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:34,915 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:34,915 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:34,915 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:34,915 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:34,915 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:34,915 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:40:35,495 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:35,496 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:40:35,496 INFO  [stdout] (default task-1)     into
+2025-04-20 15:40:35,496 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:40:35,496 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:40:35,496 INFO  [stdout] (default task-1)     values
+2025-04-20 15:40:35,496 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:40:35,528 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:35,528 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:35,528 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:35,528 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:35,528 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:35,529 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:35,529 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:35,529 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:35,529 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:35,530 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:35,530 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:35,530 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:35,530 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:35,530 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:35,530 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:35,530 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:40:35,536 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:35,536 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:35,536 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:35,536 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:35,536 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:35,537 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:35,537 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:35,537 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:35,537 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:35,537 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:35,537 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:35,537 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:35,537 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:35,537 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:35,537 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:35,537 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:40:36,177 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:36,178 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:40:36,178 INFO  [stdout] (default task-1)     into
+2025-04-20 15:40:36,178 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:40:36,178 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:40:36,178 INFO  [stdout] (default task-1)     values
+2025-04-20 15:40:36,178 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:40:36,212 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:36,213 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:36,213 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:36,213 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:36,213 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:36,214 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:36,214 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:36,214 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:36,214 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:36,214 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:36,214 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:36,214 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:36,214 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:36,214 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:36,214 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:36,214 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:40:36,221 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:36,221 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:36,221 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:36,221 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:36,221 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:36,222 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:36,222 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:36,222 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:36,222 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:36,222 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:36,222 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:36,222 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:36,222 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:36,222 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:36,222 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:36,222 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:40:36,855 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:36,855 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:40:36,855 INFO  [stdout] (default task-1)     into
+2025-04-20 15:40:36,855 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:40:36,855 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:40:36,855 INFO  [stdout] (default task-1)     values
+2025-04-20 15:40:36,855 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:40:36,895 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:36,895 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:36,895 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:36,895 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:36,895 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:36,896 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:36,896 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:36,896 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:36,896 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:36,896 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:36,896 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:36,896 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:36,896 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:36,896 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:36,896 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:36,896 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:40:36,902 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:36,902 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:36,902 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:36,902 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:36,902 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:36,903 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:36,903 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:36,903 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:36,903 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:36,903 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:36,903 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:36,903 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:36,903 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:36,903 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:36,903 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:36,903 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:40:37,654 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:37,654 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:40:37,654 INFO  [stdout] (default task-1)     into
+2025-04-20 15:40:37,654 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:40:37,654 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:40:37,654 INFO  [stdout] (default task-1)     values
+2025-04-20 15:40:37,654 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:40:37,689 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:37,689 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:37,689 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:37,689 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:37,689 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:37,691 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:37,691 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:37,691 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:37,691 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:37,691 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:37,691 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:37,691 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:37,691 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:37,691 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:37,691 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:37,691 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:40:37,697 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:37,697 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:37,698 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:37,698 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:37,698 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:37,699 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:37,699 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:37,699 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:37,699 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:37,699 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:37,699 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:37,699 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:37,699 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:37,699 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:37,699 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:37,699 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:40:38,207 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:38,207 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:40:38,207 INFO  [stdout] (default task-1)     into
+2025-04-20 15:40:38,207 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:40:38,207 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:40:38,208 INFO  [stdout] (default task-1)     values
+2025-04-20 15:40:38,208 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:40:38,237 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:38,237 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:38,237 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:38,237 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:38,237 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:38,238 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:38,238 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:38,238 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:38,238 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:38,238 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:38,238 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:38,239 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:38,239 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:38,239 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:38,239 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:38,239 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:40:38,245 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:38,245 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:38,245 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:38,245 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:38,245 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:38,245 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:38,245 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:38,246 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:38,246 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:38,246 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:38,246 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:38,246 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:38,246 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:38,246 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:38,246 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:38,246 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:40:38,962 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:38,962 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:40:38,963 INFO  [stdout] (default task-1)     into
+2025-04-20 15:40:38,963 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:40:38,963 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:40:38,963 INFO  [stdout] (default task-1)     values
+2025-04-20 15:40:38,963 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:40:38,983 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:38,984 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:38,984 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:38,984 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:38,984 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:38,986 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:38,986 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:38,986 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:38,986 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:38,986 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:38,986 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:38,986 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:38,986 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:38,986 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:38,986 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:38,986 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:40:38,996 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:38,996 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:38,996 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:38,996 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:38,996 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:38,998 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:38,998 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:38,998 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:38,998 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:38,998 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:38,998 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:38,998 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:38,998 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:38,998 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:38,998 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:38,998 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:40:39,513 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:39,513 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:40:39,514 INFO  [stdout] (default task-1)     into
+2025-04-20 15:40:39,514 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:40:39,514 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:40:39,514 INFO  [stdout] (default task-1)     values
+2025-04-20 15:40:39,514 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:40:39,529 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:39,529 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:39,529 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:39,529 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:39,529 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:39,530 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:39,531 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:39,531 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:39,531 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:39,531 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:39,531 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:39,531 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:39,531 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:39,531 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:39,531 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:39,531 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:40:39,537 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:39,537 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:39,537 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:39,537 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:39,537 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:39,538 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:39,539 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:39,539 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:39,539 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:39,539 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:39,539 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:39,539 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:39,539 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:39,539 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:39,539 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:39,539 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:40:40,152 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:40,152 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:40:40,152 INFO  [stdout] (default task-1)     into
+2025-04-20 15:40:40,152 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:40:40,153 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:40:40,153 INFO  [stdout] (default task-1)     values
+2025-04-20 15:40:40,153 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:40:40,186 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:40,186 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:40,186 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:40,186 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:40,186 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:40,187 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:40,188 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:40,188 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:40,188 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:40,188 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:40,188 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:40,188 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:40,188 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:40,188 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:40,188 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:40,188 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:40:40,194 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:40,194 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:40,194 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:40,194 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:40,194 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:40,195 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:40,195 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:40,195 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:40,195 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:40,195 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:40,195 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:40,196 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:40,196 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:40,196 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:40,196 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:40,196 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:40:41,087 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:41,087 INFO  [stdout] (default task-1)     insert 
+2025-04-20 15:40:41,087 INFO  [stdout] (default task-1)     into
+2025-04-20 15:40:41,087 INFO  [stdout] (default task-1)         attempts
+2025-04-20 15:40:41,087 INFO  [stdout] (default task-1)         (created_at, execution_time, r, result, x, y) 
+2025-04-20 15:40:41,087 INFO  [stdout] (default task-1)     values
+2025-04-20 15:40:41,087 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?)
+2025-04-20 15:40:41,120 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:41,120 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:41,120 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:41,120 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:41,120 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:41,121 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:41,121 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:41,121 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:41,121 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:41,121 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:41,121 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:41,121 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:41,121 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:41,121 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:41,121 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:41,121 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-04-20 15:40:41,127 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:41,127 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:41,127 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-04-20 15:40:41,128 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:41,128 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-04-20 15:40:41,128 INFO  [stdout] (default task-1) Hibernate: 
+2025-04-20 15:40:41,128 INFO  [stdout] (default task-1)     select
+2025-04-20 15:40:41,128 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-04-20 15:40:41,128 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-04-20 15:40:41,128 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-04-20 15:40:41,129 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-04-20 15:40:41,129 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-04-20 15:40:41,129 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-04-20 15:40:41,129 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-04-20 15:40:41,129 INFO  [stdout] (default task-1)     from
+2025-04-20 15:40:41,129 INFO  [stdout] (default task-1)         attempts attempt0_ limit ? offset ?
+2025-04-20 15:55:36,317 ERROR [stderr] (pool-9-thread-1) Exception in thread "pool-9-thread-1" javax.management.RuntimeOperationsException: MBean web.beans:name=results,type=Results does not implement javax.management.NotificationEmitter
+2025-04-20 15:55:36,318 ERROR [stderr] (pool-9-thread-1) 	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getNotificationBroadcaster(DefaultMBeanServerInterceptor.java:1348)
+2025-04-20 15:55:36,318 ERROR [stderr] (pool-9-thread-1) 	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.removeNotificationListener(DefaultMBeanServerInterceptor.java:1316)
+2025-04-20 15:55:36,318 ERROR [stderr] (pool-9-thread-1) 	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.removeNotificationListener(DefaultMBeanServerInterceptor.java:1239)
+2025-04-20 15:55:36,318 ERROR [stderr] (pool-9-thread-1) 	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.removeNotificationListener(JmxMBeanServer.java:881)
+2025-04-20 15:55:36,318 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.as.jmx@18.1.2.Final//org.jboss.as.jmx.PluggableMBeanServerImpl$TcclMBeanServer.removeNotificationListener(PluggableMBeanServerImpl.java:1525)
+2025-04-20 15:55:36,318 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.as.jmx@18.1.2.Final//org.jboss.as.jmx.PluggableMBeanServerImpl.removeNotificationListener(PluggableMBeanServerImpl.java:949)
+2025-04-20 15:55:36,318 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.as.jmx@18.1.2.Final//org.jboss.as.jmx.BlockingNotificationMBeanServer.removeNotificationListener(BlockingNotificationMBeanServer.java:243)
+2025-04-20 15:55:36,318 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.as.jmx@18.1.2.Final//org.jboss.as.jmx.AuthorizingMBeanServer.removeNotificationListener(AuthorizingMBeanServer.java:352)
+2025-04-20 15:55:36,318 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.remoting-jmx@3.0.4.Final//org.jboss.remotingjmx.protocol.v2.ServerProxy$RemoteNotificationManager.removeNotificationListener(ServerProxy.java:229)
+2025-04-20 15:55:36,319 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.remoting-jmx@3.0.4.Final//org.jboss.remotingjmx.protocol.v2.ServerProxy$RemoteNotificationManager.removeNotificationListeners(ServerProxy.java:239)
+2025-04-20 15:55:36,319 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.remoting-jmx@3.0.4.Final//org.jboss.remotingjmx.protocol.v2.ServerProxy$RemoteNotificationManager.removeNotificationListener(ServerProxy.java:222)
+2025-04-20 15:55:36,319 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.remoting-jmx@3.0.4.Final//org.jboss.remotingjmx.protocol.v2.ServerProxy$RemoteNotificationManager.access$1900(ServerProxy.java:199)
+2025-04-20 15:55:36,319 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.remoting-jmx@3.0.4.Final//org.jboss.remotingjmx.protocol.v2.ServerProxy.end(ServerProxy.java:167)
+2025-04-20 15:55:36,319 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.remoting-jmx@3.0.4.Final//org.jboss.remotingjmx.protocol.v2.ServerCommon$MessageReciever$3$1.run(ServerCommon.java:231)
+2025-04-20 15:55:36,319 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.as.jmx@18.1.2.Final//org.jboss.as.jmx.ServerInterceptorFactory$Interceptor$1.run(ServerInterceptorFactory.java:71)
+2025-04-20 15:55:36,319 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.as.jmx@18.1.2.Final//org.jboss.as.jmx.ServerInterceptorFactory$Interceptor$1.run(ServerInterceptorFactory.java:66)
+2025-04-20 15:55:36,319 ERROR [stderr] (pool-9-thread-1) 	at org.wildfly.security.elytron-base@1.19.1.Final//org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:328)
+2025-04-20 15:55:36,319 ERROR [stderr] (pool-9-thread-1) 	at org.wildfly.security.elytron-base@1.19.1.Final//org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:285)
+2025-04-20 15:55:36,319 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.as.controller@18.1.2.Final//org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:254)
+2025-04-20 15:55:36,319 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.as.controller@18.1.2.Final//org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:225)
+2025-04-20 15:55:36,319 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.as.jmx@18.1.2.Final//org.jboss.as.jmx.ServerInterceptorFactory$Interceptor.handleEvent(ServerInterceptorFactory.java:66)
+2025-04-20 15:55:36,319 ERROR [stderr] (pool-9-thread-1) 	at org.jboss.remoting-jmx@3.0.4.Final//org.jboss.remotingjmx.protocol.v2.ServerCommon$MessageReciever$3.run(ServerCommon.java:228)
+2025-04-20 15:55:36,319 ERROR [stderr] (pool-9-thread-1) 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2025-04-20 15:55:36,319 ERROR [stderr] (pool-9-thread-1) 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025-04-20 15:55:36,320 ERROR [stderr] (pool-9-thread-1) 	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-04-20 15:55:36,320 ERROR [stderr] (pool-9-thread-1) Caused by: java.lang.IllegalArgumentException: web.beans:name=results,type=Results
+2025-04-20 15:55:36,320 ERROR [stderr] (pool-9-thread-1) 	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getNotificationBroadcaster(DefaultMBeanServerInterceptor.java:1344)
+2025-04-20 15:55:36,320 ERROR [stderr] (pool-9-thread-1) 	... 24 more
+2025-04-20 23:06:27,034 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2025-04-20 23:06:27,063 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2025-04-20 23:06:27,065 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2025-04-20 23:06:27,070 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = web-3-1.0-SNAPSHOT.war_org.postgresql.Driver_42_6
+2025-04-20 23:06:27,071 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-04-20 23:06:27,072 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2025-04-20 23:06:27,074 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2025-04-20 23:06:27,076 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0022: Unregistered web context: '/web-3-1.0-SNAPSHOT' from server 'default-server'
+2025-04-20 23:06:27,100 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2025-04-20 23:06:27,105 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'web-3-1.0-SNAPSHOT.war#default'
+2025-04-20 23:06:27,107 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 95) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@67865fa3
+2025-04-20 23:06:27,108 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 93) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2025-04-20 23:06:27,109 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'web-3-1.0-SNAPSHOT.war#default'
+2025-04-20 23:06:27,110 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-04-20 23:06:27,112 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+2025-04-20 23:06:27,124 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2025-04-20 23:06:27,124 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTPS listener https suspending
+2025-04-20 23:06:27,124 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:27600
+2025-04-20 23:06:27,124 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:27601
+2025-04-20 23:06:27,125 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 2.2.19.Final stopping
+2025-04-20 23:06:27,503 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment web-3-1.0-SNAPSHOT.war (runtime-name: web-3-1.0-SNAPSHOT.war) in 434ms
+2025-04-20 23:06:27,506 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) stopped in 438ms

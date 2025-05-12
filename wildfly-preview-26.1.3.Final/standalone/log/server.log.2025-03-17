@@ -1,0 +1,325 @@
+2025-03-17 02:12:31,708 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2025-03-17 02:12:31,712 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2025-03-17 02:12:31,714 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2025-03-17 02:12:31,722 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = lab3.war_org.postgresql.Driver_42_6
+2025-03-17 02:12:31,722 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-03-17 02:12:31,725 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2025-03-17 02:12:31,726 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2025-03-17 02:12:31,728 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 92) WFLYUT0022: Unregistered web context: '/lab3' from server 'default-server'
+2025-03-17 02:12:31,734 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2025-03-17 02:12:31,743 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 98) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2025-03-17 02:12:31,745 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 98) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'lab3.war#default'
+2025-03-17 02:12:31,747 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 98) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@397530bc
+2025-03-17 02:12:31,750 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 98) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'lab3.war#default'
+2025-03-17 02:12:31,751 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-03-17 02:12:31,753 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+2025-03-17 02:12:31,770 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP listener default suspending
+2025-03-17 02:12:31,770 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTPS listener https suspending
+2025-03-17 02:12:31,770 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:27600
+2025-03-17 02:12:31,771 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:27601
+2025-03-17 02:12:31,771 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 2.2.19.Final stopping
+2025-03-17 02:12:31,790 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment lab3.war (runtime-name: lab3.war) in 70ms
+2025-03-17 02:12:31,814 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) stopped in 97ms
+2025-03-17 11:43:15,953 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.2.Final
+2025-03-17 11:43:17,018 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2025-03-17 11:43:17,025 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2025-03-17 11:43:17,117 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) starting
+2025-03-17 11:43:17,119 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	file.encoding = UTF-8
+	file.separator = /
+	java.awt.headless = true
+	java.class.path = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/jboss-modules.jar
+	java.class.version = 61.0
+	java.home = /usr/local/openjdk17
+	java.io.tmpdir = /tmp/
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib:/usr/local/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.12+7-1
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = OpenJDK BSD Porting Team
+	java.vendor.url = https://github.com/battleblow/jdk17u/
+	java.vendor.url.bug = https://bugs.freebsd.org/bugzilla/enter_bug.cgi?product=Ports%20%26%20Packages&component=Individual%20Port(s)&short_desc=java/openjdk17%3A%20
+	java.version = 17.0.12
+	java.version.date = 2024-07-16
+	java.vm.compressedOopsMode = Non-zero based
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = OpenJDK BSD Porting Team
+	java.vm.version = 17.0.12+7-1
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final
+	jboss.host.name = helios
+	jboss.modules.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = helios
+	jboss.qualified.host.name = helios.cs.ifmo.ru
+	jboss.server.base.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone
+	jboss.server.config.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration
+	jboss.server.data.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data
+	jboss.server.deploy.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content
+	jboss.server.log.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/log
+	jboss.server.name = helios
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/logging.properties
+	module.path = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/modules
+	native.encoding = UTF-8
+	org.jboss.boot.log.file = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = FreeBSD
+	os.version = 14.1-STABLE
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /usr/local/openjdk17/lib
+	sun.cpu.endian = little
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/jboss-modules.jar -mp /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final -Djboss.server.base.dir=/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.stderr.encoding = UTF-8
+	sun.stdout.encoding = UTF-8
+	user.country = RU
+	user.dir = /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/bin
+	user.home = /home/studs/s408778
+	user.language = ru
+	user.name = s408778
+	user.timezone = Europe/Moscow
+2025-03-17 11:43:17,121 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/log/server.log -Dlogging.configuration=file:/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/logging.properties -Xmx512M -XX:MaxMetaspaceSize=3200m 
+2025-03-17 11:43:17,940 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.19.1.Final
+2025-03-17 11:43:58,737 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 31) WFLYDR0001: Content added at location /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content/45/383126eae23454749be17dd715b9c7a90e6763/content
+2025-03-17 11:43:58,772 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2025-03-17 11:43:58,785 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.8.7.Final
+2025-03-17 11:43:58,791 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.8.7.Final
+2025-03-17 11:43:58,794 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("socket-binding-group" => "standard-sockets"),
+    ("socket-binding" => "ajp")
+]) - failure description: "WFLYCTL0116: 276002 is an invalid value for parameter port. A maximum value of 65535 is required"
+2025-03-17 11:43:58,810 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 52) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2025-03-17 11:43:58,811 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 56) WFLYRS0016: RESTEasy version 6.0.1.Final
+2025-03-17 11:43:58,813 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0001: Activating Infinispan subsystem.
+2025-03-17 11:43:58,814 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2025-03-17 11:43:58,814 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 64) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2025-03-17 11:43:58,816 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 65) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2025-03-17 11:43:58,817 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 53) WFLYHEALTH0001: Activating Base Health Subsystem
+2025-03-17 11:43:58,818 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 55) WFLYIO001: Worker 'default' has auto-configured to 32 IO threads with 256 max task threads based on your 16 available processors
+2025-03-17 11:43:58,822 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2025-03-17 11:43:58,824 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 66) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2025-03-17 11:43:58,825 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2025-03-17 11:43:58,828 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 63) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2025-03-17 11:43:58,845 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 61) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2025-03-17 11:43:58,852 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2025-03-17 11:43:58,852 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2025-03-17 11:43:58,853 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2025-03-17 11:43:58,859 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.25.Final
+2025-03-17 11:43:58,886 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY00023: KeyStore file '/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/application.keystore' does not exist. Used blank.
+2025-03-17 11:43:58,896 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY01084: KeyStore /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2025-03-17 11:43:58,899 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+2025-03-17 11:43:58,901 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2025-03-17 11:43:58,901 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+2025-03-17 11:43:58,902 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = postgres
+2025-03-17 11:43:58,915 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2025-03-17 11:43:58,916 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2025-03-17 11:43:58,921 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.2.19.Final starting
+2025-03-17 11:43:58,958 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path '/home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2025-03-17 11:43:58,958 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2025-03-17 11:43:58,959 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) Queuing requests.
+2025-03-17 11:43:58,960 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2025-03-17 11:43:58,985 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:27600
+2025-03-17 11:44:06,355 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:27601
+2025-03-17 11:44:06,374 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2025-03-17 11:44:06,375 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 64 (per class), which is derived from the number of CPUs on this host.
+2025-03-17 11:44:06,375 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 256 (per class), which is derived from thread worker pool sizing.
+2025-03-17 11:44:06,406 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2025-03-17 11:44:06,967 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly Preview cumulative patch ID is: base, one-off patches include: none
+2025-03-17 11:44:06,969 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/deployments
+2025-03-17 11:44:06,975 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "lab3.war" (runtime-name: "lab3.war")
+2025-03-17 11:44:07,155 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.5.0.Final (Apache CXF 3.4.10) 
+2025-03-17 11:44:16,576 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0003: Could not index class module-info.class at /content/lab3.war/WEB-INF/lib/jakarta.ejb-api-4.0.1.jar: java.lang.NullPointerException: Cannot invoke "org.jboss.jandex.ModuleInfo.setPackages(java.util.List)" because the return value of "org.jboss.jandex.ClassInfo.module()" is null
+	at org.jboss.jandex@2.4.2.Final//org.jboss.jandex.Indexer.processModulePackages(Indexer.java:561)
+	at org.jboss.jandex@2.4.2.Final//org.jboss.jandex.Indexer.processAttributes(Indexer.java:434)
+	at org.jboss.jandex@2.4.2.Final//org.jboss.jandex.Indexer.index(Indexer.java:1985)
+	at org.jboss.as.server@18.1.2.Final//org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server@18.1.2.Final//org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server@18.1.2.Final//org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:182)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+2025-03-17 11:44:22,513 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for default
+2025-03-17 11:44:27,175 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV53020253: Second level cache enabled for lab3.war#default
+2025-03-17 11:44:27,378 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment lab3.war
+2025-03-17 11:44:27,537 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 80) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.10.Final
+2025-03-17 11:44:27,629 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 7.0.2.Final
+2025-03-17 11:44:27,654 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 80) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2025-03-17 11:44:27,929 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 81) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2025-03-17 11:44:27,966 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2025-03-17 11:44:27,968 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-2) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=lab3.war, reporter=RemoteReporter(sender=org.wildfly.extension.microprofile.opentracing.spi.sender.WildFlySender@e7be86c, closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=helios.cs.ifmo.ru, jaeger.version=Java-1.6.0, ip=192.168.10.80}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2025-03-17 11:44:27,997 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV53020253: Second level cache enabled for lab3.war#default
+2025-03-17 11:44:28,063 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'lab3.war#default'
+2025-03-17 11:44:28,069 INFO  [org.infinispan.CONFIG] (MSC service thread 1-7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2025-03-17 11:44:28,070 INFO  [org.infinispan.CONFIG] (MSC service thread 1-7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2025-03-17 11:44:28,080 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 81) ISPN000025: wakeUpInterval is <= 0, not starting expired purge thread
+2025-03-17 11:44:28,083 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 81) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2025-03-17 11:44:28,137 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 80) HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2025-03-17 11:44:32,412 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.6)
+2025-03-17 11:44:32,429 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 4.0.3 (Final)
+2025-03-17 11:44:32,478 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = lab3.war_org.postgresql.Driver_42_6
+2025-03-17 11:44:32,515 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 80) HHH000412: Hibernate Core {5.3.28.Final}
+2025-03-17 11:44:32,516 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 80) HHH000206: hibernate.properties not found
+2025-03-17 11:44:32,771 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 80) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2025-03-17 11:44:32,872 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'lab3.war#default'
+2025-03-17 11:44:33,206 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 80) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2025-03-17 11:44:36,969 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 80) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2025-03-17 11:44:36,973 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 80) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@661ffc3
+2025-03-17 11:44:36,983 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 80) Envers integration enabled? : true
+2025-03-17 11:44:37,706 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-4) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2025-03-17 11:44:38,283 INFO  [jakarta.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 90) Initializing Mojarra 3.0.0.SP04 for context '/lab3'
+2025-03-17 11:44:44,560 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 90) Running on PrimeFaces 13.0.0
+2025-03-17 11:44:44,579 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0021: Registered web context: '/lab3' for server 'default-server'
+2025-03-17 11:44:44,632 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 45) WFLYSRV0010: Deployed "lab3.war" (runtime-name : "lab3.war")
+2025-03-17 11:44:47,833 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2025-03-17 11:44:47,835 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) started in 96152ms - Started 523 of 703 services (340 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2025-03-17 11:44:47,836 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:27602/management
+2025-03-17 11:44:47,836 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:27602
+2025-03-17 11:44:51,329 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2025-03-17 11:44:51,425 INFO  [stdout] (default task-1) Hibernate: 
+2025-03-17 11:44:51,425 INFO  [stdout] (default task-1)     select
+2025-03-17 11:44:51,425 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-03-17 11:44:51,425 INFO  [stdout] (default task-1)     from
+2025-03-17 11:44:51,425 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-03-17 11:44:51,438 INFO  [stdout] (default task-1) Hibernate: 
+2025-03-17 11:44:51,438 INFO  [stdout] (default task-1)     select
+2025-03-17 11:44:51,439 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-03-17 11:44:51,439 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-03-17 11:44:51,439 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-03-17 11:44:51,439 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-03-17 11:44:51,439 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-03-17 11:44:51,439 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-03-17 11:44:51,439 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-03-17 11:44:51,439 INFO  [stdout] (default task-1)     from
+2025-03-17 11:44:51,439 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-03-17 11:44:51,495 INFO  [stdout] (default task-1) Hibernate: 
+2025-03-17 11:44:51,496 INFO  [stdout] (default task-1)     select
+2025-03-17 11:44:51,496 INFO  [stdout] (default task-1)         count(*) as col_0_0_ 
+2025-03-17 11:44:51,496 INFO  [stdout] (default task-1)     from
+2025-03-17 11:44:51,496 INFO  [stdout] (default task-1)         attempts attempt0_
+2025-03-17 11:44:51,499 INFO  [stdout] (default task-1) Hibernate: 
+2025-03-17 11:44:51,499 INFO  [stdout] (default task-1)     select
+2025-03-17 11:44:51,499 INFO  [stdout] (default task-1)         attempt0_.id as id1_0_,
+2025-03-17 11:44:51,499 INFO  [stdout] (default task-1)         attempt0_.created_at as created_2_0_,
+2025-03-17 11:44:51,499 INFO  [stdout] (default task-1)         attempt0_.execution_time as executio3_0_,
+2025-03-17 11:44:51,499 INFO  [stdout] (default task-1)         attempt0_.r as r4_0_,
+2025-03-17 11:44:51,500 INFO  [stdout] (default task-1)         attempt0_.result as result5_0_,
+2025-03-17 11:44:51,500 INFO  [stdout] (default task-1)         attempt0_.x as x6_0_,
+2025-03-17 11:44:51,500 INFO  [stdout] (default task-1)         attempt0_.y as y7_0_ 
+2025-03-17 11:44:51,500 INFO  [stdout] (default task-1)     from
+2025-03-17 11:44:51,500 INFO  [stdout] (default task-1)         attempts attempt0_ limit ?
+2025-03-17 11:57:19,212 INFO  [stdout] (default task-2) Hibernate: 
+2025-03-17 11:57:19,212 INFO  [stdout] (default task-2)     select
+2025-03-17 11:57:19,212 INFO  [stdout] (default task-2)         count(*) as col_0_0_ 
+2025-03-17 11:57:19,213 INFO  [stdout] (default task-2)     from
+2025-03-17 11:57:19,213 INFO  [stdout] (default task-2)         attempts attempt0_
+2025-03-17 11:57:19,214 INFO  [stdout] (default task-2) Hibernate: 
+2025-03-17 11:57:19,215 INFO  [stdout] (default task-2)     select
+2025-03-17 11:57:19,215 INFO  [stdout] (default task-2)         attempt0_.id as id1_0_,
+2025-03-17 11:57:19,215 INFO  [stdout] (default task-2)         attempt0_.created_at as created_2_0_,
+2025-03-17 11:57:19,215 INFO  [stdout] (default task-2)         attempt0_.execution_time as executio3_0_,
+2025-03-17 11:57:19,215 INFO  [stdout] (default task-2)         attempt0_.r as r4_0_,
+2025-03-17 11:57:19,215 INFO  [stdout] (default task-2)         attempt0_.result as result5_0_,
+2025-03-17 11:57:19,215 INFO  [stdout] (default task-2)         attempt0_.x as x6_0_,
+2025-03-17 11:57:19,215 INFO  [stdout] (default task-2)         attempt0_.y as y7_0_ 
+2025-03-17 11:57:19,215 INFO  [stdout] (default task-2)     from
+2025-03-17 11:57:19,215 INFO  [stdout] (default task-2)         attempts attempt0_ limit ?
+2025-03-17 11:57:19,223 INFO  [stdout] (default task-2) Hibernate: 
+2025-03-17 11:57:19,223 INFO  [stdout] (default task-2)     select
+2025-03-17 11:57:19,223 INFO  [stdout] (default task-2)         count(*) as col_0_0_ 
+2025-03-17 11:57:19,223 INFO  [stdout] (default task-2)     from
+2025-03-17 11:57:19,223 INFO  [stdout] (default task-2)         attempts attempt0_
+2025-03-17 11:57:19,225 INFO  [stdout] (default task-2) Hibernate: 
+2025-03-17 11:57:19,225 INFO  [stdout] (default task-2)     select
+2025-03-17 11:57:19,225 INFO  [stdout] (default task-2)         attempt0_.id as id1_0_,
+2025-03-17 11:57:19,225 INFO  [stdout] (default task-2)         attempt0_.created_at as created_2_0_,
+2025-03-17 11:57:19,225 INFO  [stdout] (default task-2)         attempt0_.execution_time as executio3_0_,
+2025-03-17 11:57:19,225 INFO  [stdout] (default task-2)         attempt0_.r as r4_0_,
+2025-03-17 11:57:19,225 INFO  [stdout] (default task-2)         attempt0_.result as result5_0_,
+2025-03-17 11:57:19,225 INFO  [stdout] (default task-2)         attempt0_.x as x6_0_,
+2025-03-17 11:57:19,225 INFO  [stdout] (default task-2)         attempt0_.y as y7_0_ 
+2025-03-17 11:57:19,225 INFO  [stdout] (default task-2)     from
+2025-03-17 11:57:19,225 INFO  [stdout] (default task-2)         attempts attempt0_ limit ?
+2025-03-17 11:58:17,475 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 41) WFLYDR0009: Content /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content/9c/81fdd8b580aca24b80d7bb5ead173f214eb72a is obsolete and will be removed
+2025-03-17 11:58:17,485 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 41) WFLYDR0002: Content removed from location /home/studs/s408778/Web/Lab3/wildfly-preview-26.1.3.Final/standalone/data/content/9c/81fdd8b580aca24b80d7bb5ead173f214eb72a/content
+2025-03-17 13:38:06,984 INFO  [stdout] (default task-2) Hibernate: 
+2025-03-17 13:38:06,985 INFO  [stdout] (default task-2)     select
+2025-03-17 13:38:06,985 INFO  [stdout] (default task-2)         count(*) as col_0_0_ 
+2025-03-17 13:38:06,985 INFO  [stdout] (default task-2)     from
+2025-03-17 13:38:06,985 INFO  [stdout] (default task-2)         attempts attempt0_
+2025-03-17 13:38:07,030 INFO  [stdout] (default task-2) Hibernate: 
+2025-03-17 13:38:07,030 INFO  [stdout] (default task-2)     select
+2025-03-17 13:38:07,030 INFO  [stdout] (default task-2)         attempt0_.id as id1_0_,
+2025-03-17 13:38:07,030 INFO  [stdout] (default task-2)         attempt0_.created_at as created_2_0_,
+2025-03-17 13:38:07,030 INFO  [stdout] (default task-2)         attempt0_.execution_time as executio3_0_,
+2025-03-17 13:38:07,030 INFO  [stdout] (default task-2)         attempt0_.r as r4_0_,
+2025-03-17 13:38:07,030 INFO  [stdout] (default task-2)         attempt0_.result as result5_0_,
+2025-03-17 13:38:07,030 INFO  [stdout] (default task-2)         attempt0_.x as x6_0_,
+2025-03-17 13:38:07,030 INFO  [stdout] (default task-2)         attempt0_.y as y7_0_ 
+2025-03-17 13:38:07,031 INFO  [stdout] (default task-2)     from
+2025-03-17 13:38:07,031 INFO  [stdout] (default task-2)         attempts attempt0_ limit ?
+2025-03-17 13:38:07,041 INFO  [stdout] (default task-2) Hibernate: 
+2025-03-17 13:38:07,041 INFO  [stdout] (default task-2)     select
+2025-03-17 13:38:07,041 INFO  [stdout] (default task-2)         count(*) as col_0_0_ 
+2025-03-17 13:38:07,041 INFO  [stdout] (default task-2)     from
+2025-03-17 13:38:07,041 INFO  [stdout] (default task-2)         attempts attempt0_
+2025-03-17 13:38:07,043 INFO  [stdout] (default task-2) Hibernate: 
+2025-03-17 13:38:07,043 INFO  [stdout] (default task-2)     select
+2025-03-17 13:38:07,043 INFO  [stdout] (default task-2)         attempt0_.id as id1_0_,
+2025-03-17 13:38:07,043 INFO  [stdout] (default task-2)         attempt0_.created_at as created_2_0_,
+2025-03-17 13:38:07,043 INFO  [stdout] (default task-2)         attempt0_.execution_time as executio3_0_,
+2025-03-17 13:38:07,043 INFO  [stdout] (default task-2)         attempt0_.r as r4_0_,
+2025-03-17 13:38:07,043 INFO  [stdout] (default task-2)         attempt0_.result as result5_0_,
+2025-03-17 13:38:07,043 INFO  [stdout] (default task-2)         attempt0_.x as x6_0_,
+2025-03-17 13:38:07,043 INFO  [stdout] (default task-2)         attempt0_.y as y7_0_ 
+2025-03-17 13:38:07,044 INFO  [stdout] (default task-2)     from
+2025-03-17 13:38:07,044 INFO  [stdout] (default task-2)         attempts attempt0_ limit ?
+2025-03-17 16:48:01,407 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2025-03-17 16:48:01,440 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2025-03-17 16:48:01,442 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2025-03-17 16:48:01,448 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = lab3.war_org.postgresql.Driver_42_6
+2025-03-17 16:48:01,449 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-03-17 16:48:01,452 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = postgres
+2025-03-17 16:48:01,453 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2025-03-17 16:48:01,455 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0022: Unregistered web context: '/lab3' from server 'default-server'
+2025-03-17 16:48:01,461 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0019: Host default-host stopping
+2025-03-17 16:48:01,470 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 96) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'lab3.war#default'
+2025-03-17 16:48:01,470 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 95) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2025-03-17 16:48:01,472 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 96) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@4bd22f2d
+2025-03-17 16:48:01,475 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'lab3.war#default'
+2025-03-17 16:48:01,476 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-03-17 16:48:01,478 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+2025-03-17 16:48:01,492 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2025-03-17 16:48:01,492 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+2025-03-17 16:48:01,492 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:27600
+2025-03-17 16:48:01,492 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:27601
+2025-03-17 16:48:01,493 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 2.2.19.Final stopping
+2025-03-17 16:48:01,511 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment lab3.war (runtime-name: lab3.war) in 64ms
+2025-03-17 16:48:01,514 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Preview 26.1.3.Final (WildFly Core 18.1.2.Final) stopped in 69ms
